@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request,flash, redirect,url_for#sirve para redireccionar
+from flak import Flask, render_template, request,flash, redirect,url_for#sirve para redireccionar
 from flask_mysqldb import MySQL
 
 app = Flask(__name__, template_folder="template")
